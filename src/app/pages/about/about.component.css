@@ -1,0 +1,100 @@
+:root {
+    --primary: #E88F2A;
+    --secondary: #FAF3EB;
+    --light: #FFFFFF;
+    --dark: #2B2825;
+}
+
+a{text-decoration: none;}
+
+.font-secondary {
+    font-family: 'Pacifico', cursive;
+}
+
+h1,
+h2,
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+h3,
+h4,
+.font-weight-semi-bold {
+    font-weight: 600 !important;
+}
+
+h5,
+h6,
+.font-weight-medium {
+    font-weight: 500 !important;
+}
+
+.btn {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.font-secondary {
+    font-family: 'Pacifico', cursive;
+}
+
+h1,
+h2,
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+h3,
+h4,
+.font-weight-semi-bold {
+    font-weight: 600 !important;
+}
+
+h5,
+h6,
+.font-weight-medium {
+    font-weight: 500 !important;
+}
+
+.btn {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.background-primary {background: var(--primary);}
+.background-secondary {background: var(--secondary);}
+
+.color-primary {color: var(--primary);}
+.color-secondary {background: var(--secondary);}
+
+.text-white {color: #FFF;}
+
+.hero-header {
+    background: url(/assets/hero.jpg) top right no-repeat;
+    background-size: cover;
+}
+
+.bg-img {
+    background: linear-gradient(rgba(43, 40, 37, .5), rgba(43, 40, 37, .5)), url(/assets/bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.service::after,
+.contact::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: calc(100% - 45px);
+    top: 135px;
+    left: 0;
+    background: linear-gradient(rgba(43, 40, 37, .9), rgba(43, 40, 37, .9)), url(/assets/service.jpg) center center no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.bg-offer {
+    background: linear-gradient(rgba(43, 40, 37, .9), rgba(43, 40, 37, .9)), url(/assets/offer.jpg) center center no-repeat;
+    background-size: cover;
+}

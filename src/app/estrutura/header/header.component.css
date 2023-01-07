@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --primary: #E88F2A;
+    --secondary: #FAF3EB;
+    --light: #FFFFFF;
+    --dark: #2B2825;
+}
+
+.font-secondary {
+    font-family: 'Pacifico', cursive;
+}
+
+h1,
+h2,
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+h3,
+h4,
+.font-weight-semi-bold {
+    font-weight: 600 !important;
+}
+
+h5,
+h6,
+.font-weight-medium {
+    font-weight: 500 !important;
+}
+
+.btn {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.background-primary {background: var(--primary);}
+.background-secondary {background: var(--secondary);}
+
+.color-primary {color: var(--primary);}
+.color-secondary {background: var(--secondary);}
